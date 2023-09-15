@@ -1,5 +1,5 @@
 {
-  "name": "js-ui",
+  "name": "js-ui-clevai",
   "version": "1.0.0",
   "description": "can be used for JS framework",
   "main": "index.js",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/DooDucc/js-ui/issues"
   },
-  "homepage": "https://github.com/DooDucc/js-ui#readme"
+  "homepage": "https://github.com/DooDucc/js-ui#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "vue": "^3.3.4",
+    "yarn": "^1.22.19"
+  }
 }
