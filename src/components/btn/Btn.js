@@ -60,6 +60,7 @@ const Button = (
       "button",
       {
         style,
+        ...props,
         onMouseover: (e) => {
           if (!props.disabled) {
             if (category === CATEGORIES_TEXT.primary) {

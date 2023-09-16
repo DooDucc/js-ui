@@ -34,3 +34,9 @@ export const CATEGORIES_TEXT = {
   text: "text",
   link: "link",
 };
+
+export const DATA_TYPES = {
+  STRING: "string",
+  NUMBER: "number",
+  OBJECT: "object",
+};

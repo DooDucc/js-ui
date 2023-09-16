@@ -3,7 +3,15 @@ import { h } from "vue";
 import { COLORS, FONTS, TAGS, FRAMEWORKS, FONTS_TEXT, TAGS_TEXT, handleConvertTag } from "../../base";
 
 const Heading = (
-  { type = FRAMEWORKS.REACT, tag = TAGS_TEXT.h1, font = FONTS_TEXT.bold, color = COLORS.gray85, align = "", children },
+  {
+    type = FRAMEWORKS.REACT,
+    tag = TAGS_TEXT.h1,
+    font = FONTS_TEXT.bold,
+    color = COLORS.gray85,
+    align = "",
+    children,
+    ...props
+  },
   { slots }
 ) => {
   const style = {
@@ -21,6 +29,7 @@ const Heading = (
       handleConvertTag(tag),
       {
         style,
+        ...props,
       },
       children
     );
