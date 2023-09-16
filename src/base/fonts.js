@@ -2,19 +2,19 @@ import { FONTS_TEXT, TAGS_TEXT } from "./constants";
 
 export const FONTS = {
   [FONTS_TEXT.regular]: {
-    fontFamily: "Regular SF Compact Rounded', sans-serif",
+    fontFamily: "'Regular SF Compact Rounded', sans-serif",
     fontWeight: 400,
   },
   [FONTS_TEXT.medium]: {
-    fontFamily: "Medium SF Compact Rounded', sans-serif",
+    fontFamily: "'Medium SF Compact Rounded', sans-serif",
     fontWeight: 500,
   },
   [FONTS_TEXT.bold]: {
-    fontFamily: "Bold SF Compact Rounded', sans-serif",
+    fontFamily: "'Bold SF Compact Rounded', sans-serif",
     fontWeight: 600,
   },
   [FONTS_TEXT.semibold]: {
-    fontFamily: "Semibold SF Compact Rounded', sans-serif",
+    fontFamily: "'Semibold SF Compact Rounded', sans-serif",
     fontWeight: 700,
   },
 };

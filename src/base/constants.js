@@ -17,5 +17,20 @@ export const TAGS_TEXT = {
   h3: "h3",
   h4: "h4",
   body: "body",
+  caption: "caption",
   note: "note",
+};
+
+export const SIZES_TEXT = {
+  sm: "sm",
+  md: "md",
+  lg: "lg",
+  xl: "xl",
+};
+
+export const CATEGORIES_TEXT = {
+  primary: "primary",
+  default: "default",
+  text: "text",
+  link: "link",
 };

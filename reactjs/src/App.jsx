@@ -1,11 +1,11 @@
-import { Heading } from "js-ui";
+import { Heading, Button } from "js-ui-clevai";
 
 const App = () => {
   return (
     <>
-      <Heading type="react" tag="h1" color="otherRoyalBlue" font="medium">
-        hiodjioasjd
-      </Heading>
+      <Button category="default" size="lg" color="otherRoyalBlue">
+        ducdc
+      </Button>
     </>
   );
 };
