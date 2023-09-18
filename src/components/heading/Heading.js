@@ -5,6 +5,8 @@ import { COLORS, FONTS, TAGS, FRAMEWORKS, FONTS_TEXT, TAGS_TEXT, handleConvertTa
 const Heading = (
   {
     type = FRAMEWORKS.REACT,
+    className,
+    id,
     tag = TAGS_TEXT.h1,
     font = FONTS_TEXT.bold,
     color = COLORS.gray85,
@@ -28,6 +30,8 @@ const Heading = (
     return React.createElement(
       handleConvertTag(tag),
       {
+        id: id ? id : "",
+        className: className ? className : "",
         style,
         ...props,
       },
@@ -37,7 +41,10 @@ const Heading = (
     return h(
       handleConvertTag(tag),
       {
+        id: id ? id : "",
+        class: className ? className : "",
         style,
+        ...props,
       },
       slots.default ? slots.default() : null
     );
