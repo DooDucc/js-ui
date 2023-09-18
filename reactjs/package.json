@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "clevai-ui": "^1.7.0",
+    "js-ui-clevai": "link:..",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "js-ui-clevai": "link:.."
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

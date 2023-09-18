@@ -1,5 +1,5 @@
 <template>
-  <Wrapper
+  <!-- <Wrapper
     :type="'vue'"
     :id="'ducdc'"
     :className="'dochiduc'"
@@ -11,9 +11,10 @@
     >ppppp</Wrapper
   >
   <Heading :type="'vue'" :tag="'h1'" :color="'otherElectricViolet'" :font="'semibold'">sss</Heading>
-  <Button :type="'vue'" :category="'link'" :size="'md'">ducdc</Button>
+  <Button :type="'vue'" :category="'link'" :size="'md'">ducdc</Button> -->
+  <Icon :type="'vue'" :id="'ducdc'" :className="'dochiduc'" :icon="'volume'" :direction="'left'" :size="'xl'" />
 </template>
 
 <script setup>
-import { Heading, Button, Wrapper } from "js-ui-clevai";
+import { Heading, Button, Wrapper, Icon } from "js-ui-clevai";
 </script>
