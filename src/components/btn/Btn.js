@@ -3,7 +3,16 @@ import { h } from "vue";
 import { CATEGORIES, CATEGORIES_TEXT, COLORS, FRAMEWORKS, SIZES, SIZES_TEXT, handleSplitColor } from "../../base";
 
 const Button = (
-  { type = FRAMEWORKS.REACT, category = CATEGORIES_TEXT.primary, size = SIZES_TEXT.lg, color, children, ...props },
+  {
+    type = FRAMEWORKS.REACT,
+    className,
+    id,
+    category = CATEGORIES_TEXT.primary,
+    size = SIZES_TEXT.lg,
+    color,
+    children,
+    ...props
+  },
   { slots }
 ) => {
   const style = {
@@ -33,6 +42,8 @@ const Button = (
     return React.createElement(
       "button",
       {
+        id: id ? id : "",
+        className: className ? className : "",
         style,
         ...props,
         onMouseOver: (e) => {
@@ -59,6 +70,8 @@ const Button = (
     return h(
       "button",
       {
+        id: id ? id : "",
+        class: className ? className : "",
         style,
         ...props,
         onMouseover: (e) => {
