@@ -40,17 +40,17 @@ import { Heading } from "js-ui-clevai";
 
 type: [type](#type-section)
 
-id: ""
+id: "" **(optional)**
 
-className: ""
+className: "" **(optional)**
 
 tag: "h1" | "h2" | "h3" | "h4" | "body" | "caption" | "note"
 
 font: "semibold" | "bold" | "medium" | "regular"
 
-color: [color](#color-section)
+color: [color](#color-section) **(optional)**
 
-align: "center" | "start" | "end"
+align: "center" | "start" | "end" **(optional)**
 
 onClick, onMouseOver, ...
 
@@ -76,15 +76,15 @@ import { Button } from "js-ui-clevai";
 
 type: [type](#type-section)
 
-id: ""
+id: "" **(optional)**
 
-className: ""
+className: "" **(optional)**
 
 category: "primary" | "default" | "text" | "link"
 
 size: "xl" | "lg" | "md" | "sm"
 
-color: [color](#color-section)
+color: [color](#color-section) **(optional)**
 
 onClick, onMouseOver, ...
 
@@ -121,17 +121,17 @@ import { Wrapper } from "js-ui-clevai";
 
 type: [type](#type-section)
 
-id: ""
+id: "" **(optional)**
 
-className: ""
+className: "" **(optional)**
 
-mg: string | number | {t?: number, r?: number, b?: number, l?: number} **(margin)**
+mg: string | number | {t?: number, r?: number, b?: number, l?: number} **(margin)** **(optional)**
 
-pd: string | number | {t?: number, r?: number, b?: number, l?: number} **(padding)**
+pd: string | number | {t?: number, r?: number, b?: number, l?: number} **(padding)** **(optional)**
 
-br: number **(border-radius)**
+br: number **(border-radius)** **(optional)**
 
-bg: [color](#color-section) **(background)**
+bg: [color](#color-section) **(background)** **(optional)**
 
 onClick, onMouseOver, ...
 
@@ -157,13 +157,13 @@ import { Icon } from "js-ui-clevai";
 
 type: [type](#type-section)
 
-id: ""
+id: "" **(optional)**
 
-className: ""
+className: "" **(optional)**
 
 icon: [icon](#icon-section)
 
-direction: "left" | "right" | "top" | "bottom"
+direction: "left" | "right" | "top" | "bottom" **(with direction icon, you should add "direction" prop)** **(optional)**
 
 size: "xl" | "lg" | "md" | "sm"
 
@@ -215,11 +215,11 @@ type: [type](#type-section)
 
 isShow: boolean
 
-isCanCloseWhenClikOutSide: boolean **(hide Popup when click on overlay)**
+isCanCloseWhenClikOutSide: boolean **(hide Popup when click on overlay)** **(optional)**
 
 onClose: () => {} **(fucncion handle hide Popup)**
 
-### Type section
+### Type section (default: "react")
 
 <a name="type-section"></a>
 
@@ -229,7 +229,7 @@ vue,
 angular,
 ```
 
-### Color section
+### Color section (default: "orange6")
 
 <a name="color-section"></a>
 
