@@ -1,4 +1,4 @@
-# clevai-ui
+# js-ui-clevai
 
 > This library can be used for React, Vue, Angular which are based on Javascript
 
@@ -219,19 +219,23 @@ isCanCloseWhenClikOutSide: boolean **(hide Popup when click on overlay)** **(opt
 
 onClose: () => {} **(fucncion handle hide Popup)**
 
-### Type section (default: "react")
+### Type section
 
 <a name="type-section"></a>
+
+- default: "react"
 
 ```
 react,
 vue,
-angular,
+angular
 ```
 
-### Color section (default: "orange6")
+### Color section
 
 <a name="color-section"></a>
+
+- default: "orange6"
 
 ```
 white: "#ffffff",
@@ -246,7 +250,14 @@ otherJava: "#64dcc3",
 otherBrightTurquoise: "#51cefa",
 otherElectricViolet: "#7a73ff",
 otherRoyalBlue: "#2b70c9",
+otherBlazeOrange: "#ff6600",
+otherGold: "#ffd700",
 otherRed: "#ff3b30",
+otherDeeppink: "#ff1493",
+otherPurpleHeart: "#722ed1",
+otherDodgerBlue: "#1877f2",
+otherLima: "#2acb42",
+otherInchWorm: "#a0d911",
 orange9: "#6b3a00",
 orange8: "#9e5500",
 orange7: "#d17100",
@@ -300,7 +311,7 @@ gray45: "#8c9093",
 gray30: "#b3b5b8",
 gray15: "#d9dadb",
 gray10: "#e6e7e8",
-gray4: "#f5f5f6",
+gray4: "#f5f5f6"
 ```
 
 ### Icon section
@@ -355,5 +366,5 @@ eyeV1,
 eyeSlashV1,
 eyeV2,
 eyeSlashV2,
-lesson,
+lesson
 ```
