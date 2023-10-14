@@ -45,7 +45,7 @@ const Icon = ({
           {
             key: index,
             d: path,
-            fill: COLORS.orange6,
+            fill,
             fillRule: "evenodd",
             clipRule: "evenodd",
             style: stylePath,
@@ -70,7 +70,7 @@ const Icon = ({
           {
             key: index,
             d: path,
-            fill: COLORS.orange6,
+            fill,
             fillRule: "evenodd",
             clipRule: "evenodd",
             style: stylePath,

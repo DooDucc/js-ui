@@ -2,7 +2,6 @@ import { SIZES_TEXT } from "./constants";
 
 export const SIZES = {
   [SIZES_TEXT.sm]: {
-    fontFamily: "'Regular SF Compact Rounded', sans-serif",
     fontWeight: 400,
     fontSize: "14px",
     lineHeight: "18px",
@@ -11,7 +10,6 @@ export const SIZES = {
     padding: "0 12px",
   },
   [SIZES_TEXT.md]: {
-    fontFamily: "'Semibold SF Compact Rounded', sans-serif",
     fontWeight: 700,
     fontSize: "16px",
     lineHeight: "22px",
@@ -20,7 +18,6 @@ export const SIZES = {
     padding: "0 20px",
   },
   [SIZES_TEXT.lg]: {
-    fontFamily: "'Semibold SF Compact Rounded', sans-serif",
     fontWeight: 700,
     fontSize: "16px",
     lineHeight: "22px",
@@ -29,7 +26,6 @@ export const SIZES = {
     padding: "0 24px",
   },
   [SIZES_TEXT.xl]: {
-    fontFamily: "'Semibold SF Compact Rounded', sans-serif",
     fontWeight: 700,
     fontSize: "20px",
     lineHeight: "28px",

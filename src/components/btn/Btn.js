@@ -25,7 +25,6 @@ const Button = (
     opacity: props.disabled ? 0.4 : 1,
     pointerEvents: props.disabled ? "none" : "unset",
     userSelect: props.disabled ? "none" : "unset",
-    fontFamily: SIZES[size].fontFamily,
     fontWeight: SIZES[size].fontWeight,
     lineHeight: SIZES[size].lineHeight,
     fontSize: SIZES[size].fontSize,

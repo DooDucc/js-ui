@@ -17,7 +17,6 @@ const Heading = (
   { slots }
 ) => {
   const style = {
-    fontFamily: FONTS[font].fontFamily,
     fontWeight: FONTS[font].fontWeight,
     lineHeight: TAGS[tag].lineHeight,
     fontSize: TAGS[tag].fontSize,
